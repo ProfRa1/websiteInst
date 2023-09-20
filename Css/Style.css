@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
+  text-align: center;
+  /* Alinha o conteúdo do slide ao centro */
+}
+
+body {
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  justify-content: center;
+  /* Centraliza o banner horizontalmente */
+  border-radius: 20px;
+
+}
+
+.logo {
+  padding: 10px;
+}
+
+.content {
+  padding: 0 0 0 87px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #0a06f9;
+  margin-left: 70px;
+}
+
+
+
+
+.content .E a {
+
+  color: #002147;
+  font-weight: bold;
+}
+
+
+
+
+.navigation {
+  display: flex;
+  background-color: #002147;
+  height: 36px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 4vw;
+  position: sticky;
+  z-index: 2px;
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  justify-content: center;
+  /* Centraliza o banner horizontalmente */
+
+}
+
+.about {
+  background-color: #002147;
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  justify-content: center;
+  /* Centraliza o banner horizontalmente */
+  border-radius: 20px;
+}
+
+.frontImage {
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  justify-content: center;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+h3 {
+  color: gray;
+  padding: auto;
+}
+
+.video {
+  margin-left: 20px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002147;
+  height: 36px;
+  color: white;
+
+}
+
+.heading1 {
+  margin: 0 12px 0 140px;
+  width: 278px;
+  height: 190px;
+}
+
+.news {
+  margin: 0 8vw 0 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin: 10px 0 0 0;
+  height: 277px;
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  justify-content: center;
+  /* Centraliza o banner horizontalmente */
+  border-radius: 20px;
+}
+
+.Announcement {
+  border: 4px solid rgb(1, 18, 130);
+  width: 560px;
+  margin-top: 10px;
+}
+
+.heading {
+  background-color: #002147;
+  color: white;
+  width: 560px;
+  text-align: center;
+  height: 48px;
+  display: flex;
+  align-self: center;
+
+  justify-content: center;
+
+
+}
+
+.show {
+  font-size: 13px;
+  width: 530px;
+  background-color: #a9abe0;
+  padding: 0 0 0 30.72px;
+  height: 215px;
+  margin: 0px;
+
+}
+
+.show marquee ul li a {
+  color: white;
+  text-decoration: none;
+  list-style: circle;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+.show marquee ul li a:hover {
+  text-decoration-line: underline;
+}
+
+.show li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  overflow: scroll;
+  margin: 33px 0 0 0;
+  font-weight: 700;
+}
+
+.row1 a img {
+  width: 162px;
+  height: 133px;
+
+}
+
+.row1:hover img {
+  transform: scale(1.1);
+  /* Aumenta a imagem em 20% */
+}
+
+.row2 {
+  height: 80px;
+  background-color: #002147;
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  height: 130px;
+}
+
+footer {
+  background-color: #010005de;
+  color: white;
+  height: 350px;
+  justify-content: center;
+  align-content: center;
+}
+
+.ultimas3 {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -230px;
+}
+
+.row3 {
+  color: white;
+  text-align: center;
+}
+
+
+
+.connected {
+  display: grid;
+  clear: right;
+  background-color: rgb(36, 8, 176);
+  color: white;
+  height: 60px;
+  width: 215px;
+  z-index: 2;
+  position: relative;
+  margin: 7px 0 -37px 210px;
+  text-align: center;
+  font-size: 25px;
+  justify-content: center;
+  align-content: center;
+}
+
+.text {
+  transform: scaleY(2);
+}
+
+.connected img {
+  margin: -18px 13px -11px -66px;
+  width: 49px;
+  height: 29px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  margin: 64px 0 0 194px;
+}
+
+.address {
+  grid-column: 2/5;
+}
+
+.light {
+  color: gray;
+}
+
+.About {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.About button {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  width: 115px;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+}
+
+.AboutContent {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+.About:hover .AboutContent {
+  display: block;
+}
+
+.AboutContent a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-top: 2px
+}
+
+.AboutContent a:hover {
+  background-color: rgb(232, 228, 228);
+}
+
+.About:hover {
+  background-color: #002147
+}
+
+.About1 {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.About1 button {
+  background-color: transparent;
+  box-sizing: border-box;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  width: 213px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.AboutContent {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 213px;
+}
+
+.About1:hover .AboutContent {
+  display: block;
+}
+
+.AboutContent a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-top: 2px;
+}
+
+.AboutContent a:hover {
+  background-color: rgb(232, 228, 228);
+}
+
+.About1:hover {
+  background-color: #002147
+}
+
+.Content {
+  display: none;
+}
+
+.sub-Container:hover .Content {
+  display: inline-block;
+}
+
+.sub-Container a {
+  display: block;
+  position: relative;
+}
+
+.Content {
+  position: absolute;
+  margin-left: 100%;
+  margin-top: -34px;
+}
+
+.Content a {
+  border-radius: 2px;
+}
+
+.About img {
+  transform: rotate(-90deg);
+  height: 20px;
+  width: 17px;
+  margin-left: -6px;
+}
+
+.btn {
+  display: flex;
+  margin: 0px 0 0 0;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.show marquee {
+  height: 221px;
+}
+
+.quemsomos {
+  padding: 10px;
+  border: 4px solid #002147;
+  margin-top: 10px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.topicos {
+  margin-top: 20px
+}
+
+.destaques {
+
+  align-self: center;
+  margin-top: -270px;
+  margin-right: 1000px;
+  justify-content: center;
+  margin-left: 300px;
+
+}
+
+
+
+.details {
+  margin-left: 150px;
+  padding-bottom: 45px;
+  padding-top: 30px;
+
+}
+
+.noticias {
+  align-self: center;
+  margin-top: -10px;
+  margin-right: 1500px;
+  justify-content: center;
+  margin-left: 160px;
+  margin-right: 1000px;
+}
+
+.ultimas {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -630px;
+}
+
+.space {
+  margin-top: 100px;
+}
+
+.ultimas2 {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -430px;
+}
+
+.not {
+  margin-top: 20px;
+}
+
+.formulario {
+  display: flex;
+  align-self: center;
+  margin-top: 30px;
+  justify-content: center;
+  /* Centraliza o banner horizontalmente */
+  border-radius: 20px;
+
+}
+
+.inputs {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-left: 10px;
+
+
+}
+
+.tags {
+  background-color: #117864;
+  width: 250px;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+.tags2 {
+  background-color: #117864;
+  width: 250px;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+
+.tags3 {
+  background-color: #117864;
+  width: 250px;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+.analise {
+  align-items: center;
+  margin-left: 10px;
+  height: 30px;
+  padding: 5px;
+  font-size: 20;
+  color: whitesmoke;
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 18px;
+}
